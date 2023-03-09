@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -1aQd --group-directories-first [0-9a-zA-Z]* | sed ':a;N;$!ba;s/\n/, /g'
