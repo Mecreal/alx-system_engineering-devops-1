@@ -1,2 +1,2 @@
 #!/bin/bash
-for dir in */; do chmod o+x,g+x,u+x "$dir"; done
+for dir in */ do chmod o+x,g+x,u+x "$dir" done
